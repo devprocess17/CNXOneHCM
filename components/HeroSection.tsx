@@ -32,7 +32,7 @@ export default function HeroSection({ onDemoClick }: HeroSectionProps) {
                 onClick={onDemoClick}
                 className="border-2 border-green-700 gradient-text w-fit px-6 py-3 rounded-full text-base font-medium hover:bg-green-50 transition-colors mx-auto mt-2 mb-6 sm:w-auto sm:px-8 sm:py-4 sm:text-lg sm:mx-0 sm:mt-0 sm:mb-0"
               >
-                <Calendar className="inline w-4 h-4 mr-2" />
+                <Calendar className="text-green-800 text-xl inline w-4 h-4 mr-2" />
                 Demander une démo
               </button>
             </div>
