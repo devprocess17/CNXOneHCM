@@ -7,28 +7,28 @@ export default function SolutionSection() {
   return (
     <section id="solution" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:items-center">
           {/* Image à gauche */}
-          <div className="relative mb-8 md:mb-0 hidden md:hidden lg:block">
+          <div className="relative mb-8 md:mb-0 hidden md:hidden lg:flex lg:justify-center">
             <div className="relative z-10">
               <Image
                 src="/img/groupe_mockup.png"
                 alt="Organisation mockup"
                 width={600}
                 height={400}
-                className="w-full rounded-lg mx-auto animate-float"
+                className="w-full lg:mt-40 rounded-lg mx-auto animate-float"
                 style={{ animation: 'float 6s ease-in-out infinite' }}
               />
             </div>
           </div>
 
           {/* Contenu à droite */}
-          <div className="space-y-8 text-center lg:text-center sm:text-left md:text-left">
+          <div className="space-y-8 text-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">
                 CNXOne HCM<sup>&#174;</sup> est une solution RH de nouvelle génération
               </h2>
-              <p className="text-lg lg:text-xl text-gray-600">
+              <p className="text-lg lg:text-xl text-gray-600 text-center">
                 Modulaire, intelligente et 100 % cloud, CNXOne HCM conjugue innovation
                 technologique, sécurité et conformité réglementaire pour unifier tous vos
                 processus RH, façonner une expérience collaborateur cohérente et faire du
