@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://cnxlink.cnx4-0.com/one-paie"
+                  href="/one-paie"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-green-400 transition-colors flex items-center justify-center md:justify-start"
@@ -81,7 +81,7 @@ export default function Footer() {
           <p className="text-gray-400 text-sm ml text-center md:text-left">
             CNXOne HCM<sup>&#174;</sup> by Eden Technology.
           </p>
-          <div className="flex flex-col items-center space-y-3 md:flex-row md:space-y-0 md:space-x-6">
+          {/* <div className="flex flex-col items-center space-y-3 md:flex-row md:space-y-0 md:space-x-6">
             <a
               href="#"
               className="text-sm text-gray-400 hover:text-green-400 transition-colors"
@@ -94,7 +94,7 @@ export default function Footer() {
             >
               Politique de Confidentialité
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

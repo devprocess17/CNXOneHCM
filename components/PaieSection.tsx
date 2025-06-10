@@ -21,7 +21,7 @@ export default function PaieSection() {
             </div>
             <div className="pt-4 flex justify-center md:justify-start">
               <a
-                href="https://cnxlink.cnx4-0.com/one-paie"
+                href="/one-paie"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-red-800 text-white px-8 py-3 rounded-full text-base font-medium hover:bg-red-700 transition-colors duration-300"
