@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { MessageCircle, X, Phone, Send } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRobot } from '@fortawesome/free-solid-svg-icons';
 
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
@@ -187,7 +189,7 @@ export default function Chatbot() {
                 {message.type === 'bot' && (
                   <div className="flex-shrink-0">
                     <div className="w-6 h-6 rounded-full bg-cnx-green flex items-center justify-center">
-                      <i className="fas fa-robot text-white text-xs"></i>
+                      <FontAwesomeIcon icon={faRobot} className="text-white text-xs" />
                     </div>
                   </div>
                 )}
