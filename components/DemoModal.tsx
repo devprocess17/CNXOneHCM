@@ -28,10 +28,12 @@ export default function DemoModal({ isOpen, onClose, onConfirm }: DemoModalProps
   const timeSlots = ['9:00', '10:30', '14:00', '15:30', '17:00'];
 
   useEffect(() => {
+    let fpInstance: any; // Déclarer une variable pour stocker l'instance flatpickr
+
     if (isOpen) {
       const dateInput = document.getElementById('demo-date') as HTMLInputElement;
       if (dateInput) {
-        flatpickr(dateInput, {
+        fpInstance = flatpickr(dateInput, {
           locale: French,
           minDate: 'today',
           dateFormat: 'd/m/Y',
@@ -47,6 +49,13 @@ export default function DemoModal({ isOpen, onClose, onConfirm }: DemoModalProps
         });
       }
     }
+
+    // Fonction de nettoyage pour détruire l'instance flatpickr
+    return () => {
+      if (fpInstance) {
+        fpInstance.destroy();
+      }
+    };
   }, [isOpen]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
