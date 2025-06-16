@@ -34,7 +34,7 @@ export default function PaieSection() {
           <div className="relative flex items-center justify-center p-6">
             <div className="relative w-full max-w-md mx-auto rounded-xl p-4">
               <Image
-                src="/img/var_paie.png"
+                src="/images/var_paie.png"
                 alt="cnx-paie"
                 width={400}
                 height={300}

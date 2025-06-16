@@ -43,7 +43,7 @@ export default function Navigation({ onDemoClick }: NavigationProps) {
             <a href="https://cnxlink.cnx4-0.com" className="block">
               <Image 
                 className="w-32 sm:w-28 md:w-32 lg:w-32 transition-all duration-300" 
-                src="/img/logo_1.png" 
+                src="/images/logo_1.png" 
                 alt="cnx-logo" 
                 width={128}
                 height={64}

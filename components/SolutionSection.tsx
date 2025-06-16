@@ -12,7 +12,7 @@ export default function SolutionSection() {
           <div className="relative mb-8 md:mb-0 hidden md:hidden lg:flex lg:justify-center">
             <div className="relative z-10">
               <Image
-                src="/img/groupe_mockup.png"
+                src="/images/groupe_mockup.png"
                 alt="Organisation mockup"
                 width={600}
                 height={400}

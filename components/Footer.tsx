@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2 lg:col-span-1 flex flex-col items-center md:items-start">
             <a href="https://cnxlink.cnx4-0.com" className="inline-block mb-4">
               <Image 
-                src="/img/logo_1.png" 
+                src="/images/logo_1.png" 
                 className="w-32" 
                 alt="CNX 4.0 Logo" 
                 width={128}

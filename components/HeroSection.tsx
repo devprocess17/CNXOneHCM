@@ -61,7 +61,7 @@ export default function HeroSection({ onDemoClick }: HeroSectionProps) {
             {/* Image container */}
             <div className="hero-image-container">
               <Image
-                src="/img/gpec_mocup-remove.png"
+                src="/images/gpec_mocup-remove.png"
                 alt="CNXOne HCM Interface"
                 width={500}
                 height={400}

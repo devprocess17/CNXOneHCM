@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'CNXOne HCM',
   description: 'CNXOne HCM®, la solution de gestion du Capital Humain, 100 % gabonaise.',
   icons: {
-    icon: '/img/img_title.png',
+    icon: '/images/img_title.png',
   },
 };
 
