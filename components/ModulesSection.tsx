@@ -154,13 +154,15 @@ export default function ModulesSection() {
         'Profil numérique complet des employés',
         'Organigramme fonctionnel et interactif',
         'Portail employé personnalisable',
-        'Gestion fine des profils et autorisations'
+        'Gestion fine des profils et autorisations',
+        'Vue 360° des employés'
       ],
       benefits: [
         'Données centralisées, sécurisées et facilement accessibles',
         'Vision claire et à jour de la structure organisationnelle',
         'Autonomie et expérience employé améliorées',
-        'Conformité et confidentialité des données renforcées'
+        'Conformité et confidentialité des données renforcées',
+        'Vision holistique et instantanée de chaque employé'
       ]
     },
     {

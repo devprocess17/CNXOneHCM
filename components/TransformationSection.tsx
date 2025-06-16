@@ -60,6 +60,11 @@ export default function TransformationSection() {
             description: "IA pour filtrer, scorer et prioriser les candidatures."
           },
           {
+            icon: faClipboardList,
+            title: "Suivi visuel des candidatures",
+            description: "Tableau Kanban interactif pour visualiser et piloter l'avancement des candidatures à chaque étape du processus de recrutement."
+          },
+          {
             icon: faCalendarCheck,
             title: "Gestion des entretiens",
             description: "Planification centralisée avec scoring et validation."
