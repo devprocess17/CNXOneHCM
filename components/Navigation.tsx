@@ -38,15 +38,15 @@ export default function Navigation({ onDemoClick }: NavigationProps) {
       }`}
     >
       <div className="max-w-[1920px] px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20">
+        <div className="flex justify-between items-center h-12 md:h-16">
           <div className="flex-shrink-0">
             <a href="https://cnxlink.cnx4-0.com" className="block">
               <Image 
-                className="w-24 sm:w-28 md:w-32 lg:w-36 transition-all duration-300" 
+                className="w-32 sm:w-28 md:w-32 lg:w-32 transition-all duration-300" 
                 src="/img/logo_1.png" 
                 alt="cnx-logo" 
-                width={144}
-                height={72}
+                width={128}
+                height={64}
                 priority
               />
             </a>
