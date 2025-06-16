@@ -28,7 +28,9 @@ import {
   faRandom,
   faUserShield,
   faClock,
-  faExchange
+  faExchange,
+  faReceipt,
+  faGift
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function TransformationSection() {
@@ -38,33 +40,33 @@ export default function TransformationSection() {
     {
       id: 1,
       icon: Search,
-      title: "1. Identification & Acquisition des talents",
+      title: "1. Identification & acquisition des talents",
       content: {
-        title: "Identification & Acquisition des Talents",
+        title: "Identification & acquisition des talents",
         features: [
           {
             icon: faBullseye,
-            title: "Définition du Besoin",
-            description: "Spécification des profils alignés aux objectifs stratégiques."
+            title: "Définition du besoin & gestion des postes",
+            description: "Spécification des profils alignés aux objectifs stratégiques, s'appuyant sur un référentiel clair de vos fiches de poste et structures organisationnelles."
           },
           {
             icon: faNetworkWired,
-            title: "Sourcing Multi-canal",
+            title: "Sourcing multi-canal",
             description: "Recherche multicanale pour maximiser diversité et qualité."
           },
           {
             icon: faFilter,
-            title: "Présélection Intelligente",
+            title: "Présélection intelligente",
             description: "IA pour filtrer, scorer et prioriser les candidatures."
           },
           {
             icon: faCalendarCheck,
-            title: "Gestion des Entretiens",
+            title: "Gestion des entretiens",
             description: "Planification centralisée avec scoring et validation."
           },
           {
             icon: faCheckCircle,
-            title: "Décision & Proposition",
+            title: "Décision & proposition",
             description: "Consolidation des retours et génération équitable des offres."
           },
           {
@@ -89,18 +91,18 @@ export default function TransformationSection() {
     {
       id: 2,
       icon: Handshake,
-      title: "2. Intégration & Socialisation",
+      title: "2. Intégration & socialisation",
       content: {
-        title: "Intégration & Socialisation",
+        title: "Intégration & socialisation",
         features: [
           {
             icon: faClipboardList,
-            title: "Préparation d'Arrivée",
+            title: "Préparation d'arrivée",
             description: "Checklist automatisée et préparation du poste de travail."
           },
           {
             icon: faRoute,
-            title: "Parcours d'Intégration",
+            title: "Parcours d'intégration",
             description: "Parcours personnalisé avec formation et découverte de l'entreprise."
           },
           {
@@ -110,12 +112,12 @@ export default function TransformationSection() {
           },
           {
             icon: faGraduationCap,
-            title: "Formation Initiale",
+            title: "Formation initiale",
             description: "Modules de formation obligatoires et spécifiques au poste."
           },
           {
             icon: faComments,
-            title: "Suivi & Feedback",
+            title: "Suivi & feedback",
             description: "Points d'étape réguliers et collecte de feedback sur l'intégration."
           },
           {
@@ -130,13 +132,13 @@ export default function TransformationSection() {
     {
       id: 3,
       icon: BarChart,
-      title: "3. Engagement & Performance",
+      title: "3. Engagement & performance",
       content: {
-        title: "Engagement & Performance",
+        title: "Engagement & performance",
         features: [
           {
             icon: faNetworkWired,
-            title: "Force de Travail",
+            title: "Force de travail",
             description: "Analyse intelligente de la main-d'œuvre, prévision des besoins RH et allocation optimisée des ressources."
           },
           {
@@ -146,7 +148,7 @@ export default function TransformationSection() {
           },
           {
             icon: faCalendarCheck,
-            title: "Présences & Temps",
+            title: "Présences & temps",
             description: "Suivi des horaires, heures supplémentaires, conformité légale et rapports en temps réel."
           },
           {
@@ -156,7 +158,7 @@ export default function TransformationSection() {
           },
           {
             icon: faChartLine,
-            title: "Suivi de Performance",
+            title: "Suivi de performance",
             description: "Suivi en continu des résultats, détection des écarts et actions correctives avec alertes."
           },
           {
@@ -176,8 +178,18 @@ export default function TransformationSection() {
           },
           {
             icon: faHandshake,
-            title: "Dialogue Social",
+            title: "Dialogue social",
             description: "Gestion des IRP, élections, indicateurs sociaux, enquêtes et reporting automatisé."
+          },
+          {
+            icon: faReceipt,
+            title: "Gestion simplifiée des notes de frais",
+            description: "Permettez à vos collaborateurs de soumettre facilement leurs notes de frais et optimisez le processus de validation et de remboursement."
+          },
+          {
+            icon: faGift,
+            title: "Programmes de reconnaissance",
+            description: "Mettez en place et suivez des initiatives pour valoriser les contributions, les réussites et l'engagement de vos équipes."
           }
         ],
         keywords: ["Performance", "Objectifs", "Engagement", "Présences", "Dialogue social"]
@@ -192,27 +204,27 @@ export default function TransformationSection() {
         features: [
           {
             icon: faBrain,
-            title: "Gestion des Compétences (GPEC)",
+            title: "Gestion des compétences (GPEC)",
             description: "Cartographiez, évaluez et développez les compétences en lien avec les besoins stratégiques de l'entreprise."
           },
           {
             icon: faChalkboardTeacher,
-            title: "Formation Continue",
+            title: "Formation continue",
             description: "Gérez un catalogue de formations en ligne ou en présentiel avec suivi du budget, des participants et des résultats."
           },
           {
             icon: faRoad,
-            title: "Plans de Carrière",
+            title: "Plans de carrière",
             description: "Aidez les collaborateurs à visualiser leur évolution professionnelle et les étapes clés à franchir."
           },
           {
             icon: faRandom,
-            title: "Mobilité Interne",
-            description: "Mettez en place un processus transparent pour postuler aux opportunités internes et favoriser la fidélisation."
+            title: "Mobilité interne intelligente",
+            description: "Mettez en place un processus transparent pour postuler aux opportunités internes, enrichi par un système de matching automatique entre les compétences des collaborateurs et les besoins des postes, favorisant ainsi la fidélisation."
           },
           {
             icon: faUserShield,
-            title: "Plan de Succession",
+            title: "Plan de succession",
             description: "Identifiez et préparez les talents pour les postes clés, assurant la continuité des activités à long terme."
           }
         ],
@@ -222,33 +234,33 @@ export default function TransformationSection() {
     {
       id: 5,
       icon: DoorOpen,
-      title: "5. Transition & Départ",
+      title: "5. Transition & départ",
       content: {
-        title: "Transition & Départ",
+        title: "Transition & départ",
         features: [
           {
             icon: faClock,
-            title: "Préparation de Départ",
-            description: "Checklist des actions à réaliser avant le départ d'un employé, comme la restitution du matériel ou la clôture des comptes et initialiser le et workflow de Départ."
+            title: "Préparation de départ",
+            description: "Checklist des actions à réaliser avant le départ d'un employé, comme la restitution du matériel ou la clôture des comptes et initialiser le et workflow de départ."
           },
           {
             icon: faExchange,
-            title: "Transfert de Connaissances",
+            title: "Transfert de connaissances",
             description: "Processus structuré pour documenter et transmettre les savoirs critiques à l'équipe ou au successeur."
           },
           {
             icon: faComments,
-            title: "Entretien de Sortie",
+            title: "Entretien de sortie",
             description: "Entretien confidentiel pour recueillir le feedback de l'employé sur son expérience et identifier des axes d'amélioration."
           },
           {
             icon: faFileAlt,
-            title: "Formalités Administratives",
+            title: "Formalités administratives",
             description: "Gestion des documents légaux et administratifs liés au départ, comme le solde de tout compte ou le certificat de travail."
           },
           {
             icon: faNetworkWired,
-            title: "Réseau Alumni",
+            title: "Réseau alumni",
             description: "Plateforme pour maintenir le contact avec les anciens employés, favorisant le networking et les opportunités futures."
           }
         ],

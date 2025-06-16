@@ -50,7 +50,7 @@ export default function ModulesSection() {
         'Tableaux de bord temps réel',
         'Indicateurs RH personnalisables',
         'Rapports automatisés',
-        'Analyse prédictive'
+        'Analyse prédictive pour anticiper les tendances clés'
       ],
       benefits: [
         'Prise de décision éclairée',
@@ -88,7 +88,9 @@ export default function ModulesSection() {
         'Audit de sécurité',
         'Conformité RGPD',
         'Performance',
-        'Fiabilité'
+        'Fiabilité',
+        'Authentification Multi-Facteurs (2FA)',
+        'Journalisation Complète des Actions (Audit Trail Exhaustif)'
       ],
       benefits: [
         'Protection des données',
@@ -96,27 +98,33 @@ export default function ModulesSection() {
         'Conformité réglementaire',
         'Réputation préservée',
         'Productivité accrue',
-        'Disponibilité continue'
+        'Disponibilité continue',
+        'Sécurité d\'accès renforcée grâce au 2FA',
+        'Traçabilité totale pour les audits et la conformité'
       ]
     },
     {
       id: 'interfacage',
       icon: Link,
-      title: 'Interfaçage systèmes',
+      title: 'Automatisation & Intégrations Systèmes',
       description: 'Connexions fluides avec vos systèmes existants (paie, ERP, outils collaboratifs) grâce à des API robustes et des connecteurs prédéfinis, éliminant les silos d\'information.',
       features: [
         'API REST robustes',
         'Connecteurs prédéfinis',
         'Synchronisation temps réel',
         'Mapping de données',
-        'Architecture modulaire'
+        'Architecture modulaire',
+        'Modélisation et Automatisation Avancée des Processus RH',
+        'Connecteurs optimisés pour systèmes de paie'
       ],
       benefits: [
         'Élimination des silos',
         'Données unifiées',
         'Efficacité opérationnelle',
         'ROI optimisé',
-        'Évolutivité garantie'
+        'Évolutivité garantie',
+        'Flexibilité accrue grâce à des workflows hautement personnalisables',
+        'Flux de données paie fiabilisés et automatisés'
       ]
     },
     {
@@ -162,15 +170,16 @@ export default function ModulesSection() {
       description: 'Simplifiez la gestion de tous vos documents RH, des contrats aux attestations, grâce à une plateforme centralisée, sécurisée et facile d\'accès, avec des fonctionnalités d\'archivage, de recherche et de partage avancées.',
       features: [
         'Centralisation des documents (réglementaires, entreprise, employés)',
-        'Modèles de documents personnalisables et génération facile',
+        'Génération automatisée de documents à partir de modèles personnalisables',
         'Suivi des dates d\'expiration avec notifications',
-        'Signature électronique intégrée (E-signature)'
+        'Intégration native de la signature électronique (E-signature)'
       ],
       benefits: [
         'Accès rapide, sécurisé et centralisé à tous les documents',
         'Optimisation des processus administratifs et gain de temps',
         'Conformité assurée et réduction des risques liés aux échéances',
-        'Dématérialisation et réduction de l\'usage du papier'
+        'Dématérialisation et réduction de l\'usage du papier',
+        'Validation et contractualisation 100% dématérialisées et accélérées'
       ]
     },
     {
@@ -182,13 +191,15 @@ export default function ModulesSection() {
         'Mises à jour programmables',
         'Interface intuitive et facilité d\'utilisation',
         'Service de migration des données sécurisé',
-        'Support réactif 24/7'
+        'Support réactif 24/7',
+        'Expertise et accompagnement adaptés au contexte local'
       ],
       benefits: [
         'Maintien des performances optimales et des dernières fonctionnalités',
         'Réduction du temps de formation et adoption rapide par les équipes',
         'Transition fluide sans perte de données',
-        'Résolution rapide des problèmes et assistance continue'
+        'Résolution rapide des problèmes et assistance continue',
+        'Une assistance qui comprend vos spécificités métiers et réglementaires locales'
       ]
     }
   ];
