@@ -106,7 +106,7 @@ export default function ModulesSection() {
     {
       id: 'interfacage',
       icon: Link,
-      title: 'Automatisation & Intégrations Systèmes',
+      title: 'Automatisation & intégrations systèmes',
       description: 'Connexions fluides avec vos systèmes existants (paie, ERP, outils collaboratifs) grâce à des API robustes et des connecteurs prédéfinis, éliminant les silos d\'information.',
       features: [
         'API REST robustes',
