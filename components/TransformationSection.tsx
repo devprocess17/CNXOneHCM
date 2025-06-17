@@ -172,11 +172,6 @@ export default function TransformationSection() {
             description: "Mesurez l'engagement via des sondages eNPS et agissez pour renforcer la motivation."
           },
           {
-            icon: faAward,
-            title: "Reconnaissance",
-            description: "Valorisez les contributions par des programmes formels et informels de reconnaissance."
-          },
-          {
             icon: faStar,
             title: "Évaluations",
             description: "Auto-évaluation, évaluation par les pairs et feedback manager pour un suivi objectif."
